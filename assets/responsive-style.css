@@ -1,0 +1,119 @@
+@media screen and (max-width: 990px){
+    .image{
+        width: 100%;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 870px){
+    #header{
+        padding: 0;
+    }
+    .header-body{
+        grid-template-columns: 1fr;
+    }
+    .header-in .column-3x{
+        line-height: normal;
+    }
+    .infograph{
+        padding-left: 7.3vw;
+        padding-right: 7.3vw;
+    }
+    .header-in{
+        border-radius: 0;
+    }
+    .img-curve-min{
+        width: 456px;
+    }
+    .p1, p2{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 590px){
+    #header{
+        padding: 0;
+        background-size: 347px;
+    }
+    .header-in .column-3x{
+        float: left;
+    }
+    .img-curve-min{
+        width: 350px;
+    }
+    .img-curve{
+        width: 266px;
+    }
+    .col-5x{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .col-5x i{
+        font-size: 40px;
+        transition: .5s;
+    }
+    .ht{
+        display: none;
+    }
+    .name{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .column-3x{
+        grid-template-columns: 1fr;
+    }
+    .header-in .column-3x{
+        line-height: 5px;
+        padding: 30px 0;
+    }
+    .bottom{
+        text-align: left;
+        padding: 30px 0 30px 100px;
+    }
+    .img-bg-port{
+        width: 342px;
+    }
+    .p1, .p2{
+        grid-template-columns: 1fr;
+    }
+    .header-body{
+        grid-template-columns: 1fr;
+    }
+/*    .infograph{display: none;}*/
+}
+
+@media screen and (max-width: 380px){
+    #header{
+        background-size: 80vh;
+    }
+    .img-bg-port{
+        width: 100%;
+        top: 0;
+    }
+    .name{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .header-in .column-3x{
+        padding: 50px 0;
+    }
+    .header-in .column-3x h2{
+        font-size: 20px;
+    }
+    .header-in .column-3x p{
+        font-size: 14px;
+    }
+    .bottom{
+        padding: 30px 0 30px 20px;
+        font-size: 14px;
+    }
+    #portfolio{
+        padding: 70px 10px;
+    }
+    .header-in{
+        padding: 30px 20px;
+    }
+    .pagination
+}
+@media screen and (max-width: 245px){
+    .name{
+        font-size: 30px;
+    }
+}

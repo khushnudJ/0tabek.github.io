@@ -1,127 +1,226 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link type="text/css" rel="stylesheet" href="assets/style.css">
+        <link type="text/css" rel="stylesheet" href="assets/responsive-style.css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+        
+        <script language="javascript">
+        function showPage(id)
+            {
+                var totalNumberOfPages = 2;
+                for(i=1; i<= totalNumberOfPages; i++){
+                    if(document.getElementById('page'+i))
+                        document.getElementById('page'+i).style.display='none';
+                }
+                if(document.getElementById('page'+id)){
+                    document.getElementById('page'+id).style.display='block';
+                }
+            }
+        </script>
+        
+    </head>
+    <body>
+        <div id="header">
+            <img src="images/pink2.png" class="img-curve">        
+<!--
+            <div class="col-5x">
+                <div class="ht">
+                    <h3>Lorem Ispum :</h3>
+                </div>
+                <div>
+                    <i class="fa fa-html5"></i>
+                </div>
+                <div>
+                    <i class="fa fa-css3"></i>
+                </div>
+                <div>
+                    <i class="fa fa-stack-overflow"></i>
+                </div>
+                <div>
+                    <i class="fa fa-github"></i>
+                </div>
+            </div>
+-->
+                                                                     
+            <div class="header-in">
+                <img src="images/pink.png" class="img-curve-min">
+                <div class="skills">
+                    <h1>Skills:</h1>
+                    <p class="gray hu">#php #javascript #css #html #laravel #yii2 #magento #ruby #python</p>
+                </div>
+                
+                <div class="header-body">
+                    <div>
+                        <h1 class="name">Atabayev Otabek</h1>
+                        <div class="social-networks">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-telegram"></i>
+                        </div>
+<!--                        <a href="#" class="">GitHub Profile</a>-->
+                    </div>
+                    <div class="infograph">
+                        <center><img src="images/Colorful%20Hexagon%20Mind%20Map.png" class="image"></center>
+                    </div>
+                </div>
+                
+                <div class="column-3x">
+                    <div>
+                        <h2>Lorem Ipsum:</h2>
+                        <p class="gray">- desio pentagon</p>
+                    </div>
+                    <div>
+                        <h2>Lorem Ipsum:</h2>
+                        <p class="gray">- desio pentagon</p>
+                    </div>
+                    <div>
+                        <h2>Lorem Ispum:</h2>
+                        <p class="gray">- desio pentagon</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column-3x bottom">
+                <div>
+                    <p>Lorem Ispum <br> desio pentagon</p>
+                </div>
+                <div>
+                    <p>Lorem Ispum <br> desio pentagon</p>
+                </div>
+                <div>
+                    <p>Lorem Ispum <br> desio pentagon</p>
+                </div>
+            </div>
+            
+        </div>
+        <div id="portfolio">
+            <img class="img-bg-port" src="images/half-bottom.png">
+            
+            <div class="hr"></div><br>
+            <div class="portfolio">
+                <h1>Portfolio :</h1>
+                <p class="gray">MY WORKS</p>
+            </div>
+            
+<!--            <div class="works">-->
+                <div id="page1">
+                    <div class="p1">
+                        <div class="port-box">
+                            <img src="images/Digital-Media.jpg" class="port-img">
+                            <div class="overlay">
+                                <div class="text"><i class="fa fa-binoculars"></i></div>
+                            </div>
+                        </div>
+                        <div class="port-box">
+                            <img src="images/Digital-Media.jpg" class="port-img">
+                            <div class="overlay">
+                                <div class="text"><i class="fa fa-binoculars"></i></div>
+                            </div>
+                        </div>
+                        <div class="port-box">
+                            <img src="images/Digital-Media.jpg" class="port-img">
+                            <div class="overlay">
+                                <div class="text"><i class="fa fa-binoculars"></i></div>
+                            </div>
+                        </div>
+                        <div class="port-box">
+                            <img src="images/Digital-Media.jpg" class="port-img">
+                            <div class="overlay">
+                                <div class="text"><i class="fa fa-binoculars"></i></div>
+                            </div>
+                        </div>
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Otabek Atabaev | Data Entry and Reserach specialist</title>
-  <meta name="description" content="Portfolio for research and data entry expert Amy McAdams.">
-  <meta name="author" content="Justin Seeley">
+                        <div class="port-box">
+                            <img src="images/Digital-Media.jpg" class="port-img">
+                            <div class="overlay">
+                                <div class="text"><i class="fa fa-binoculars"></i></div>
+                            </div>
+                        </div>
+                        <div class="port-box">
+                            <img src="images/Digital-Media.jpg" class="port-img">
+                            <div class="overlay">
+                                <div class="text"><i class="fa fa-binoculars"></i></div>
+                            </div>
+                        </div>
+                        <div class="port-box">
+                            <img src="images/Digital-Media.jpg" class="port-img">
+                            <div class="overlay">
+                                <div class="text"><i class="fa fa-binoculars"></i></div>
+                            </div>
+                        </div>
+                        <div class="port-box">
+                            <img src="images/Digital-Media.jpg" class="port-img">
+                            <div class="overlay">
+                                <div class="text"><i class="fa fa-binoculars"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            <div id="page2" style="display: none;">
+                <div class="p2">
+                     <div class="port-box">
+                            <img src="images/Colorful%20Hexagon%20Mind%20Map.png" class="port-img">
+                            <div class="overlay">
+                                <div class="text"><i class="fa fa-binoculars"></i></div>
+                            </div>
+                        </div>
+                        <div class="port-box">
+                            <img src="images/Colorful%20Hexagon%20Mind%20Map.png" class="port-img">
+                            <div class="overlay">
+                                <div class="text"><i class="fa fa-binoculars"></i></div>
+                            </div>
+                        </div>
+                        <div class="port-box">
+                            <img src="images/Colorful%20Hexagon%20Mind%20Map.png" class="port-img">
+                            <div class="overlay">
+                                <div class="text"><i class="fa fa-binoculars"></i></div>
+                            </div>
+                        </div>
+                        <div class="port-box">
+                            <img src="images/Colorful%20Hexagon%20Mind%20Map.png" class="port-img">
+                            <div class="overlay">
+                                <div class="text"><i class="fa fa-binoculars"></i></div>
+                            </div>
+                        </div>
+                        <div class="port-box">
+                            <img src="images/Colorful%20Hexagon%20Mind%20Map.png" class="port-img">
+                            <div class="overlay">
+                                <div class="text"><i class="fa fa-binoculars"></i></div>
+                            </div>
+                        </div>
+                </div>
+            </div>
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
-  
-   <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  
-  <!-- Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  	
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="img/favicon.png">
-
-</head>
-<body>
-
-<header class="main_nav green">
-	<div class="container">
-		<div class="twelve columns">
-			<div class="logo"><a href="#">Otabek Atabaev</a></div>
-			<h1 style="color: #3f7f7c; font-family: 'Satisfy', cursive;" align="center">Data Entry and Research Specialist</h1>
-		</div>
-	</div>
-</header>
-
-<div class="container main">
-	<div class="row">
-		<div class="four columns portfolio">
-			<a class="image-link" href="img/1.jpg"><img src="img/1.jpg" /></a>
-		</div>
-		<div class="four columns portfolio">
-			<a class="image-link" href="img/2.jpg"><img src="img/2.jpg" /></a>
-		</div>
-		<div class="four columns portfolio">
-			<a class="image-link" href="img/3.jpg"><img src="img/3.jpg" /></a>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="four columns portfolio">
-			<a class="image-link" href="img/4.jpg"><img src="img/4.jpg" /></a>
-		</div>
-		<div class="four columns portfolio">
-			<a class="image-link" href="img/5.jpg"><img src="img/5.jpg" /></a>
-		</div>
-		<div class="four columns portfolio">
-			<a class="image-link" href="img/6.jpg"><img src="img/6.jpg" /></a>
-		</div>
-	</div>
-</div><!--Container-->
-
-<div class="row green">
-	<div class="container">
-		<div class="four columns">
-			<img class="avatar" src="img/ProfilePic.jpg" />
-		</div>
-		<div class="eight columns">
-			<h2 class="bio">About Otabek Atabaaev</h2>
-			<p class="bio"> Motivated, tech-savvy indivual who is specialised in Data entry and Research tasks. Started his freelance career on <a href="https://www.upwork.com/o/profiles/users/_~01cb9815cc2ffcb32e/">Upwork</a> by winnning clients and delivering high-quality work. Holds a bachelor's degree from Economics with Finance under the Westmisnter International University in Tashkent.</p>
-		</div>
-	</div>
-</div><!--Row Green-->
-	
-<footer>
-	<div class="container">
-		<div class="row twelve columns">
-			<ul class="social">
-			<li class="facebook"><a href="https://www.facebook.com/profile.php?id=100004146366992"><i class="fa fa-facebook-square fa-lg"></i></a></li>
-			<li class="linkedin"><a href="https://www.linkedin.com/in/otabek-atabaev-46aa2871/"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
-			</ul>
-		</div>
-		<div class="row twelve columns">
-			<p class="copyright">&copy; 2018 Otabek Atabaev. All Rights Reserved.</p>
-		</div>
-	</div>
-</footer>
-	
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="scripts/jquery.magnific-popup.js"></script>
-  <script type="text/javascript">
-	 $('.image-link').magnificPopup({ 
-  type: 'image',
-  mainClass: 'mfp-with-zoom', // this class is for CSS animation below
-
-  zoom: {
-    enabled: true, // By default it's false, so don't forget to enable it
-
-    duration: 300, // duration of the effect, in milliseconds
-    easing: 'ease-in-out', // CSS transition easing function 
-
-    // The "opener" function should return the element from which popup will be zoomed in
-    // and to which popup will be scaled down
-    // By defailt it looks for an image tag:
-    opener: function(openerElement) {
-      // openerElement is the element on which popup was initialized, in this case its <a> tag
-      // you don't need to add "opener" option if this code matches your needs, it's defailt one.
-      return openerElement.is('img') ? openerElement : openerElement.find('img');
-    }
-  }
-
-});	</script>
-</body>
+<!--            </div>-->
+            
+<!--
+            <center>
+                <div class="pagination">
+                    <a href="#">&laquo;</a>
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">&raquo;</a>
+                </div>
+            </center>
+-->
+            <center>
+                <div id="navigation" class="pagination">
+                    <a href="javascript: onClick=showPage('1')" id="btn1">&laquo; Previous</a>
+                    <a href="javascript: onClick=showPage('2')" id="btn2">Next &raquo;</a>
+                </div>
+            </center>
+            
+        </div>
+        
+    </body>
 </html>
